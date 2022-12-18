@@ -4,8 +4,6 @@ Sub stocks()
 
 For Each ws In Worksheets
     
-    'CREATE A SUMMARY TABLE
-
     ws.Cells(1, 9).Value = "Ticker"
     ws.Cells(1, 10).Value = "Yearly Change"
     ws.Cells(1, 11).Value = "Percent Change"
